@@ -1,5 +1,33 @@
 # Knowledge_graph_applied_on_CDS
 
+## Clinical decision support systems
+
+Clinical decision support systems (CDSS) aim to provide clinicians or patients with computer-generated clinical knowledge and patient-related information that can be intelligently filtered or presented at appropriate times, to enhance patient care.
+
+## Purpose:
+
+Our objective is a system that can extract and represent these knowledge contained in EMRs to support three CDS tasks: 
+
+- Determining a patient’s most likely diagnosis given a list of symptoms
+- Deciding on the most effective treatment plan for a patient with a known condition
+- Determining if a particular test is indicated for a given situation
+
+with the given condition of one patient.
+
+
+
+
+
+## Knowledge graph
+
+### Introduction:
+
+
+
+![Knowledge_Graph_Structure](D:\code\Knowledge_graph_applied_on_CDS\Knowledge_Graph_Structure.png)
+
+### Description of entity:
+
 | Metanode    | Description                                                  |
 | ----------- | ------------------------------------------------------------ |
 | Compound    | Approved small molecule compounds with documented chemical structures. From [DrugBank](https://www.drugbank.ca/). |
@@ -8,10 +36,28 @@
 | Symptom     | Signs and Symptoms (i.e. clinical abnormalities that can indicate a medical condition). From the [MeSH ontology](https://www.nlm.nih.gov/mesh/meshhome.html). |
 | Side Effect | Adverse drug reactions. From [SIDER](http://sideeffects.embl.de/)/[UMLS](https://www.nlm.nih.gov/research/umls/). |
 | Atc         |                                                              |
+| Treatment   |                                                              |
+| Test        |                                                              |
+| Test result |                                                              |
+
+| Entity\Attriubte |      |      |
+| ---------------- | ---- | ---- |
+| Side-effect      |      |      |
+| Act              |      |      |
+| Compound         |      |      |
+| Symptom          |      |      |
+| Disease          |      |      |
+| Anatomy          |      |      |
+| Patient          |      |      |
+| Test             |      |      |
+| Test Result      |      |      |
+| Treatment        |      |      |
 
 
 
 
+
+## Statistics of knowledge graph
 
 | Entity type | Drugbank | GNBR | Hetionet | Total Entities |
 | ----------- | -------- | ---- | -------- | -------------- |
