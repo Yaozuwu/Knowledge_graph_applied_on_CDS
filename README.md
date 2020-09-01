@@ -24,7 +24,9 @@ with the given condition of one patient.
 
 
 
-![Knowledge_Graph_Structure](D:\code\Knowledge_graph_applied_on_CDS\Knowledge_Graph_Structure.png)
+![Knowledge_Graph_Structure](D:\code\Knowledge_graph_applied_on_CDS\Knowledge_Graph_Structure.jpg)
+
+
 
 ### Description of entity:
 
